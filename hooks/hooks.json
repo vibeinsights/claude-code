@@ -9,6 +9,16 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx -y @vibeinsights/cli@latest claudecode hook"
+          }
+        ]
+      }
     ]
   }
 }
