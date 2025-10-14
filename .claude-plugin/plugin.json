@@ -1,0 +1,15 @@
+{
+  "name": "vibeinsights",
+  "version": "0.1.0",
+  "description": "Captures Claude Code transcripts and uploads to Vibe Insights server for observability analysis",
+  "author": {
+    "name": "Vibe Insights Team",
+    "email": "team@vibeinsights.dev",
+    "url": "https://github.com/vibeinsights"
+  },
+  "homepage": "https://vibeinsights.dev/docs/plugin",
+  "repository": "https://github.com/vibeinsights/claude-code",
+  "license": "MIT",
+  "keywords": ["observability", "analytics", "transcripts", "telemetry"],
+  "hooks": "./hooks/hooks.json"
+}
