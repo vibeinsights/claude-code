@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash hooks/vi-hook.sh claudecode hook"
+            "command": "bash -c 'if [ -n \"$VI_CLI_PATH\" ]; then exec $VI_CLI_PATH claudecode hook; else exec npx -y @vibeinsights/cli@latest claudecode hook; fi'"
           }
         ]
       }
@@ -15,7 +15,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash hooks/vi-hook.sh claudecode hook"
+            "command": "bash -c 'if [ -n \"$VI_CLI_PATH\" ]; then exec $VI_CLI_PATH claudecode hook; else exec npx -y @vibeinsights/cli@latest claudecode hook; fi'"
           }
         ]
       }
