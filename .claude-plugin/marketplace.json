@@ -7,11 +7,10 @@
     "email": "team@vibeinsights.dev",
     "url": "https://github.com/vibeinsights"
   },
-  "pluginRoot": ".",
   "plugins": [
     {
       "name": "vibeinsights",
-      "source": "./",
+      "source": ".",
       "description": "Captures Claude Code transcripts and uploads to Vibe Insights server for observability analysis",
       "version": "0.1.0",
       "author": {
