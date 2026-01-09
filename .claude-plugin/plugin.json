@@ -10,6 +10,5 @@
   "homepage": "https://vibeinsights.dev/docs/plugin",
   "repository": "https://github.com/vibeinsights/claude-code",
   "license": "MIT",
-  "keywords": ["observability", "analytics", "transcripts", "telemetry"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["observability", "analytics", "transcripts", "telemetry"]
 }
