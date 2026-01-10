@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "vibeinsights",
-      "source": ".",
+      "source": "./plugins/vibeinsights",
       "description": "Captures Claude Code transcripts and uploads to Vibe Insights server for observability analysis",
       "version": "0.1.0",
       "author": {
