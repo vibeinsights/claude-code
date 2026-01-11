@@ -17,8 +17,8 @@ npx agentlogs login
 Inside Claude Code, run the following commands:
 
 ```bash
-/plugin marketplace add vibeinsights/claude-code
-/plugin install vibeinsights
+/plugin marketplace add agentlogs/claude-code
+/plugin install agentlogs
 ```
 
 ## How It Works

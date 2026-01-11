@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "agentlogs",
-      "source": "./plugins/vibeinsights",
+      "source": "./plugins/agentlogs",
       "description": "Captures Claude Code transcripts and uploads to AgentLogs server",
       "version": "0.1.0",
       "author": {
