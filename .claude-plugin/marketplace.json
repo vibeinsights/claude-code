@@ -1,27 +1,34 @@
 {
-  "name": "vibeinsights-marketplace",
-  "description": "Official marketplace for Vibe Insights Claude Code plugins",
+  "name": "agentlogs-marketplace",
+  "description": "Official marketplace for the AgentLogs Claude Code plugins",
   "version": "1.0.0",
   "owner": {
-    "name": "Vibe Insights Team",
-    "email": "team@vibeinsights.dev",
-    "url": "https://github.com/vibeinsights"
+    "name": "AgentLogs Team",
+    "email": "team@agentlogs.ai",
+    "url": "https://github.com/agentlogs"
   },
   "plugins": [
     {
-      "name": "vibeinsights",
+      "name": "agentlogs",
       "source": "./plugins/vibeinsights",
-      "description": "Captures Claude Code transcripts and uploads to Vibe Insights server for observability analysis",
+      "description": "Captures Claude Code transcripts and uploads to AgentLogs server",
       "version": "0.1.0",
       "author": {
-        "name": "Vibe Insights Team",
-        "email": "team@vibeinsights.dev",
-        "url": "https://github.com/vibeinsights"
+        "name": "AgentLogs Team",
+        "email": "team@agentlogs.ai",
+        "url": "https://github.com/agentlogs"
       },
-      "homepage": "https://vibeinsights.dev/docs/plugin",
-      "repository": "https://github.com/vibeinsights/claude-code",
+      "homepage": "https://agentlogs.ai/docs/claude-code",
+      "repository": "https://github.com/agentlogs/claude-code",
       "license": "MIT",
-      "keywords": ["observability", "analytics", "transcripts", "telemetry"],
+      "keywords": [
+        "observability",
+        "analytics",
+        "transcripts",
+        "telemetry",
+        "upload",
+        "logs"
+      ],
       "category": "analytics",
       "tags": ["observability", "telemetry", "logging"]
     }
