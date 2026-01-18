@@ -11,6 +11,17 @@
         ]
       }
     ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'if [ -n \"$VI_CLI_PATH\" ]; then exec $VI_CLI_PATH claudecode hook; else exec npx -y agentlogs@latest claudecode hook; fi'"
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "hooks": [
