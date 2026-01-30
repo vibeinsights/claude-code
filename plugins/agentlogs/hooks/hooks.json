@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash -c 'if [ -n \"$VI_CLI_PATH\" ]; then exec $VI_CLI_PATH claudecode hook; else exec npx -y agentlogs@latest claudecode hook; fi'"
+            "command": "bash -c '(if [ -n \"$VI_CLI_PATH\" ]; then $VI_CLI_PATH claudecode hook; else npx -y agentlogs@latest claudecode hook; fi) &'"
           }
         ]
       }
@@ -27,7 +27,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash -c 'if [ -n \"$VI_CLI_PATH\" ]; then exec $VI_CLI_PATH claudecode hook; else exec npx -y agentlogs@latest claudecode hook; fi'"
+            "command": "bash -c '(if [ -n \"$VI_CLI_PATH\" ]; then $VI_CLI_PATH claudecode hook; else npx -y agentlogs@latest claudecode hook; fi) &'"
           }
         ]
       }
@@ -37,7 +37,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash -c 'if [ -n \"$VI_CLI_PATH\" ]; then exec $VI_CLI_PATH claudecode hook; else exec npx -y agentlogs@latest claudecode hook; fi'"
+            "command": "bash -c '(if [ -n \"$VI_CLI_PATH\" ]; then $VI_CLI_PATH claudecode hook; else npx -y agentlogs@latest claudecode hook; fi) &'"
           }
         ]
       }
