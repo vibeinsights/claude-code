@@ -12,7 +12,7 @@
       "name": "agentlogs",
       "source": "./plugins/agentlogs",
       "description": "Captures Claude Code transcripts and uploads to AgentLogs server",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "AgentLogs Team",
         "email": "team@agentlogs.ai",
